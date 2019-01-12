@@ -1,0 +1,33 @@
+{
+  "name": "pg-simple-chat-service",
+  "version": "1.0.0",
+  "description": "simple chat service using fastify and postgres as backend",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "fastify": "^1.13.4",
+    "fastify-postgres": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heritechie/pg-simple-chat-service.git"
+  },
+  "keywords": [
+    "chat",
+    "postgres",
+    "service"
+  ],
+  "author": "heritechie@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heritechie/pg-simple-chat-service/issues"
+  },
+  "homepage": "https://github.com/heritechie/pg-simple-chat-service#readme"
+}
