@@ -2,7 +2,7 @@
 Simple chat service using fastify &amp; postgres as backend
 
 
-## Intital setup
+## Initial setup
 
 - Create postgres database, name it as you wish
 
